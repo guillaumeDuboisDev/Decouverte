@@ -1,0 +1,8 @@
+# Double astérique : recherche partout dans le dépôt
+**/logs/test.log
+# dossier1/logs/test.log : ignoré
+# dossier2/logs/test.log : ignoré
+# dossier3/logs/dossier/test.log : compilé
+
+# Bloquer le fichier test.log peu importe où il se trouve dans le dépôt
+test.log

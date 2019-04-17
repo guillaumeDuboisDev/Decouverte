@@ -6,3 +6,7 @@
 
 # Bloquer le fichier test.log peu importe où il se trouve dans le dépôt
 test.log
+
+# Bloquer les fichiers masqués mac
+.DS_Store
+
